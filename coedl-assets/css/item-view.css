@@ -1,0 +1,38 @@
+body {
+    font-family: 'Noto Sans';
+    font-size: 16px;
+}
+
+div#logos {
+    text-align: center;
+}
+
+table {
+    width:320px;
+}
+
+td.key {
+    background: #f0f0f0;
+    border: 1px solid white;
+    width: 20%;
+    padding: 5px;
+}
+
+td.value {
+    width: 80%;
+    padding: 5px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+  /* Instead use this non-standard one: */
+    word-break: break-word;
+}
+
+ul#files li {
+    margin-bottom: 10px
+}
+
+div#logos img {
+    padding:15px;
+    padding-top: 0px;
+}
